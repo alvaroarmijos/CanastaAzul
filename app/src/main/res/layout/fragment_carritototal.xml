@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/containercarrito"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Principal"
+    >
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="520dp"
+        tools:ignore="MissingConstraints"
+        android:scrollbarThumbVertical="@color/colorPrimary">
+
+        <FrameLayout
+            android:id="@+id/framelayoutcarrito"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+        </FrameLayout>
+    </ScrollView>
+
+
+    <FrameLayout
+
+        android:id="@+id/framelayout_totalfinal"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#ffffff"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2">
+
+    </FrameLayout>
+
+</android.support.constraint.ConstraintLayout>

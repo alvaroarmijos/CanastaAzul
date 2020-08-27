@@ -1,0 +1,182 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registrarse"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Informacíon de Facturación"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-dark"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            />
+
+        <EditText
+            android:id="@+id/textViewCed"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:hint="Cédula/RUC"
+            android:inputType="number"
+            android:background="@drawable/box_text"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:textSize="15dp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@color/colorPrimaryDark"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:layout_marginBottom="10dp"/>
+
+        <EditText
+            android:id="@+id/textViewEmpresa"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:hint="Empresa"
+            android:inputType="textPersonName"
+            android:background="@drawable/box_text"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:textSize="15dp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@color/colorPrimaryDark"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:layout_marginBottom="10dp"/>
+
+        <EditText
+            android:id="@+id/textViewTit"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:hint="Sr/Sra"
+            android:inputType="textPersonName"
+            android:background="@drawable/box_text"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:textSize="15dp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@color/colorPrimaryDark"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:layout_marginBottom="10dp"/>
+
+        <EditText
+            android:id="@+id/textViewNameFact"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:hint="Nombre"
+            android:inputType="textPersonName"
+            android:background="@drawable/box_text"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:textSize="15dp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@color/colorPrimaryDark"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:layout_marginBottom="10dp"/>
+
+        <EditText
+            android:id="@+id/textViewDir"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:hint="Dirección"
+            android:inputType="textPersonName"
+            android:background="@drawable/box_text"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:textSize="15dp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@color/colorPrimaryDark"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:layout_marginBottom="10dp"/>
+
+        <EditText
+            android:id="@+id/textViewRef"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:hint="Referencia de Dirección"
+            android:inputType="textPersonName"
+            android:background="@drawable/box_text"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:textSize="15dp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@color/colorPrimaryDark"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:layout_marginBottom="10dp"/>
+
+        <EditText
+            android:id="@+id/textViewCell"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:hint="Celular"
+            android:inputType="phone"
+            android:background="@drawable/box_text"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:textSize="15dp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@color/colorPrimaryDark"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:layout_marginBottom="10dp"/>
+
+        <EditText
+            android:id="@+id/textViewPhone"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:hint="Teléfono Fijo"
+            android:inputType="phone"
+            android:background="@drawable/box_text"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:textSize="15dp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@color/colorPrimaryDark"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:layout_marginBottom="10dp"/>
+
+        <EditText
+            android:id="@+id/textViewRefC"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:hint="¿Cómo conocio la canasta azul?"
+            android:inputType="textPersonName"
+            android:background="@drawable/box_text"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:textSize="15dp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@color/colorPrimaryDark"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/ButtonGuardar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Guardar Cambios"
+            android:background="@drawable/button_rounded"
+            android:textColor="#ffffff"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+</ScrollView>
